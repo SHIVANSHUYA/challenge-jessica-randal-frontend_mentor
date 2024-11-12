@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sour Gummy";
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    margin-top: 5%;
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:hsl(0, 0%, 12%);
+    border-radius: 2vw;
+    padding-top: 1%;
+}
+
+.img{
+    margin-left: 32%;
+    border-radius: 50%;
+    width: 35%;
+    margin-bottom: 2%;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.7vh;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 2vh;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10%;
+}
+
+.down{
+    width: 95%;
+    margin-left: 6vw;
+}
+
+.git{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 1vw;
+    margin-bottom: 2vh;
+}
+
+.git h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+.fm{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 1vw;
+    margin-bottom: 2vh;
+}
+
+.fm h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.l{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 1vw;
+    margin-bottom: 2vh;
+}
+
+.l h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.t{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 1vw;
+    margin-bottom: 2vh;
+}
+
+.t h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.i{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 1vw;
+    margin-bottom: 4vh;
+}
+
+.i h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.git:hover{
+    background-color: hsl(75, 73%, 52%);
+    color: hsl(0, 0%, 12%);
+}
+
+.fm:hover{
+    background-color: hsl(75, 73%, 52%);
+    color: hsl(0, 0%, 12%);
+}
+
+.l:hover{
+    background-color: hsl(75, 73%, 52%);
+    color: hsl(0, 0%, 12%);
+}
+
+.t:hover{
+    background-color: hsl(75, 73%, 52%);
+    color: hsl(0, 0%, 12%);
+}
+
+.i:hover{
+    background-color: hsl(75, 73%, 52%);
+    color: hsl(0, 0%, 12%);
+}
+
+
+@media (max-width: 1000px){
+    .container{
+        margin-top: 5%;
+        width: 90%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color:hsl(0, 0%, 12%);
+        border-radius: 2vw;
+        padding-top: 1%;
+    }
+    
+    .img{
+        margin-left: 32%;
+        border-radius: 50%;
+        width: 35%;
+        margin-bottom: 2%;
+    }
+    
+    .name{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 0.7vh;
+    }
+    
+    .address{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        color: hsl(75, 94%, 57%);
+        margin-bottom: 3vh;
+    }
+    
+    .about{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        color: hsl(0, 0%, 100%);
+        margin-bottom: 8%;
+        font-weight: 100;
+        font-size: 80%;
+        margin-left: 13px;
+    }
+    
+    .down{
+        width: 95%;
+        margin-left: 18vw;
+    }
+    
+    .git{
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 1vw;
+        margin-bottom: 2vh;
+    }
+    
+    .git h2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    
+    .fm{
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 1vw;
+        margin-bottom: 2vh;
+    }
+    
+    .fm h2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .l{
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 1vw;
+        margin-bottom: 2vh;
+    }
+    
+    .l h2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .t{
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 1vw;
+        margin-bottom: 2vh;
+    }
+    
+    .t h2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .i{
+        width: 80%;
+        height: auto;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 1vw;
+        margin-bottom: 4vh;
+    }
+    
+    .i h2{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    a{
+        color: hsl(0, 0%, 100%);
+        text-decoration: none;
+    }
+    
+    .git:hover{
+        background-color: hsl(75, 73%, 52%);
+        color: hsl(0, 0%, 12%);
+    }
+    
+    .fm:hover{
+        background-color: hsl(75, 73%, 52%);
+        color: hsl(0, 0%, 12%);
+    }
+    
+    .l:hover{
+        background-color: hsl(75, 73%, 52%);
+        color: hsl(0, 0%, 12%);
+    }
+    
+    .t:hover{
+        background-color: hsl(75, 73%, 52%);
+        color: hsl(0, 0%, 12%);
+    }
+    
+    .i:hover{
+        background-color: hsl(75, 73%, 52%);
+        color: hsl(0, 0%, 12%);
+    }
+}
